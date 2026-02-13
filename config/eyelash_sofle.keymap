@@ -74,7 +74,7 @@
 &kp C_MUTE      &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &mo 1   &kp SPACE    &kp ENTER        &kp ENTER  &mo 2   &kp RIGHT_ALT  &kp RCTRL  &kp K_CONTEXT_MENU
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
             display-name = "BASE";
         };
 
@@ -93,11 +93,11 @@
 
         LAYER2 {
             bindings = <
-&kp TILDE  &trans  &trans  &trans      &trans       &trans        &mmv MOVE_UP     &trans   &trans  &trans  &trans  &trans                &trans
-&trans     &trans  &trans  &sys_reset  &bootloader  &soft_off     &mmv MOVE_DOWN   &trans   &trans  &trans  &trans  &kp UNDER             &kp PLUS
-&trans     &trans  &trans  &trans      &trans       &trans        &mmv MOVE_LEFT   &trans   &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans     &trans  &trans  &trans      &trans       &trans        &mmv MOVE_RIGHT  &kp F21  &trans  &trans  &trans  &trans                &trans
-&trans     &trans  &trans  &trans      &trans       &alt_space    &mkp LCLK        &trans   &trans  &trans  &trans  &trans
+&kp ESCAPE  &trans  &trans  &trans      &trans       &trans        &mmv MOVE_UP     &trans   &trans  &trans  &trans  &trans                &trans
+&trans      &trans  &trans  &sys_reset  &bootloader  &soft_off     &mmv MOVE_DOWN   &trans   &trans  &trans  &trans  &kp UNDER             &kp PLUS
+&trans      &trans  &trans  &trans      &trans       &trans        &mmv MOVE_LEFT   &trans   &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans      &trans  &trans  &trans      &trans       &trans        &mmv MOVE_RIGHT  &kp F21  &trans  &trans  &trans  &trans                &trans
+&trans      &trans  &trans  &trans      &trans       &alt_space    &mkp LCLK        &trans   &trans  &trans  &trans  &trans
             >;
 
             display-name = "LAYER2";
